@@ -1,0 +1,35 @@
+{
+	"combatSmallForSmallFleet":{
+		"glimmer_Assault":5,
+		"lumen_Standard":10,
+	},
+	"combatSmall":{
+		"glimmer_Assault":5,
+		"glimmer_Support":5,
+		"lumen_Standard":10,
+	},
+	"combatMedium":{
+		"fulgent_Assault":5,
+		"fulgent_Support":5,
+	},
+	"combatLarge":{
+		"brilliant_Standard":10,
+		"brilliant_Support":10,
+		"apex_Standard":4,
+		"apex_Assault":3,
+		"apex_Missile":2,
+		"apex_Overdriven":1,
+	},
+	"combatCapital":{
+		"radiant_Standard":4,
+		"radiant_Strike":3,
+		"radiant_Assault":3,
+		"nova_Standard":5,
+		"nova_Attack":5,
+	},
+	# carriers
+	"carrierSmall":{
+		"scintilla_Strike":5,
+		"scintilla_Support":5,
+	},
+}	
