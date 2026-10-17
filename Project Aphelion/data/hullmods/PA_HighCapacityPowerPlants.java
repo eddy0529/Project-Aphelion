@@ -7,9 +7,9 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class PA_HighCapacityPowerPlants extends BaseHullMod {
 
-	public static final float COST_REDUCTION_HEAVY  = 10;
-	public static final float COST_REDUCTION_MEDIUM = 5;
-	public static final float COST_REDUCTION_SMALL = 2;
+	public static final float COST_REDUCTION_HEAVY  = 5;
+	public static final float COST_REDUCTION_MEDIUM = 3;
+	public static final float COST_REDUCTION_SMALL = 1;
 	
 	public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
 		stats.getDynamic().getMod(Stats.LARGE_ENERGY_MOD).modifyFlat(id, -COST_REDUCTION_HEAVY);
